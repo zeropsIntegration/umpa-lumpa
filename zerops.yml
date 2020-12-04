@@ -4,5 +4,6 @@ use: [ nodejs@12 ]
 run:
   - npm list -g --depth 0
   - npm i
+  - wtf
 # which files / folders to deploy after build
-deploy: [  ]
+deploy: [ "*" ]
