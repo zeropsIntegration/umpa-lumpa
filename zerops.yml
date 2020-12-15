@@ -1,8 +1,8 @@
 # select what technology your build uses
-use: []
+use: [ go@1 ]
 
 # which commands to run to build
 run:
   - npm i
 # which files / folders to deploy after build
-deploy: [ "*" ]
+deploy: []
